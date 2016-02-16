@@ -1,0 +1,409 @@
+@font-face {
+	font-family: 'Conv_ufonts.com_whitney-light_1_';
+	src: url('../fonts/ufonts.com_whitney-light_1_.eot');
+	src: local('☺'), url('../fonts/ufonts.com_whitney-light_1_.woff') format('woff'), url('../fonts/ufonts.com_whitney-light_1_.ttf') format('truetype'), url('../fonts/ufonts.com_whitney-light_1_.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+.clearfix:after {
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.clear {
+	clear: both;
+	line-height: 0;
+	font-size: 0;
+}
+img.alignright {
+	float:right;
+	margin:0 0 1em 1em
+}
+img.alignleft {
+	float:left;
+	margin:0 1em 1em 0
+}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+a img.alignright {
+	float:right;
+	margin:0 0 1em 1em
+}
+a img.alignleft {
+	float:left;
+	margin:0 1em 1em 0
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+/* Reset ends */
+
+/* Main */
+body {
+/*	background:url(bg000000-.jpg) no-repeat center top;*/
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+/* Main ends */
+
+
+/* Header */
+#header {
+	height: 150px;
+	background: red;
+}
+/* Header ends */
+
+
+/* Menu */
+#menu {
+	height: 40px;
+	background: blue;
+}
+/* Menu ends */
+
+
+/* Content */
+#content {
+	width: 1080px !important;
+	margin: 310px 0 0 0px;
+	padding:39px 0 0 10px;
+}
+#col-1 {
+    margin-left: 50px;
+	width: 643px;
+	float: left;
+}
+#col-1 .intro-container {
+	padding-left: 15px;
+}
+.intro-container .intro {
+	margin-bottom:24px;
+}
+.intro-container .nav {
+	height:40px;
+	margin:0 0 30px 20px;
+}
+.intro-container .nav li {
+	float:left;
+	list-style:none;
+	background:url(link-sep.jpg) no-repeat left;
+}
+.intro-container .nav li:first-child {
+	background:none;
+}
+.intro-container .nav li a {
+	font-family:verdana;
+	font-size:18px;
+	color:#25aae1;
+	line-height:40px;
+	/*text-transform:uppercase;*/
+	padding:0 12px;
+	text-decoration:none;
+}
+.intro-container .nav li a:hover {
+	text-decoration:underline;
+}
+#col-1 h1 {
+	color:#d20202;
+	font-family: 'Conv_ufonts.com_whitney-light_1_';
+	font-size:59px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom: 19px;
+	margin-left: -53px;
+}
+#col-1 h1 span {
+	background:url(heading-.jpg) no-repeat 0 5px;
+/*	width:79px;
+	height:65px;*/
+	display:inline-block;
+	margin: 0 10px;
+}
+h1.style2 {
+	background:url(http://adjump.it/WF.CA/images/heading-img-2.jpg) no-repeat 0 5px;
+}
+#col-1 p {
+	font-family:verdana;
+	font-size:14px;
+	color:#000000;
+	line-height:24px;
+	margin-bottom:15px;
+	margin-top:3px;
+}
+#col-1 .sample-pic {
+	width: 595px;
+	border:dotted 2px #96ce4c;
+	padding:20px 20px 10px 15px;
+	margin:25px 0 20px;
+	overflow:hidden;
+}
+.sample-pic .clm-1 {
+	float:left;
+	width:254px;
+}
+.clm-1 h6 {
+	color:#96ce4c;
+	font-family:verdana;
+	font-size:16px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:8px 0 5px;
+}
+.clm-1 .egg1 {
+	padding: 5px 0px 0px 60px;
+}
+.sample-pic .clm-2 {
+	float:left;
+	width:194px;
+	margin-top:10px;
+}
+.clm-2 h6 {
+	color:#96ce4c;
+	font-family:verdana;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:10px;
+	margin:3px 0 10px;
+}
+.clm-2 .egg2 {
+	padding: 0px 0px 0px 30px;
+}
+.sample-pic .clm-3 {
+	float:right;
+	width:147px;
+	margin-top: 10px;
+}
+.clm-3 h6 {
+	color:#96ce4c;
+	font-family:verdana;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:10px;
+	margin:3px 0 10px;
+}
+.clm-3 .egg3 {
+	padding: 0px 0px 0px 20px;
+}
+#col-1 .keep-hunting {
+	/* background:url(keep-hun.jpg) repeat-x; */
+	background:none;
+	margin-bottom:-10px;
+}
+.keep-hunting .innr {
+	overflow:hidden;
+}
+.keep-hunting .innr p {
+	margin-bottom:0px !important;
+}
+.keep-hunting .innr a {
+	font-weight:bold;
+	color:#000000;
+}
+.keep-hunting .innr a:hover {
+	text-decoration:none;
+}
+.keep-hunting .logo-img {
+	width:508px !important;
+	height:178px !important;
+	background:url(keep-huo.jpg) no-repeat !important;
+	display:inline-block;
+	margin:10px 0 17px 50px !important;
+}
+#col-1 .more-questions {
+	margin:0 0 10px -25px;
+}
+#col-1 .egg-post {
+}
+.egg-post h6 {
+	text-align:center;
+	color:#c33c7c;
+	font-family:Myriad Pro;
+	font-size:40px;
+	font-weight:normal;
+}
+.egg-post h6 span {
+}
+.egg-post p {
+}
+.egg-post .blue-egg {
+	float:right;
+}
+.egg-post .egg-wrap-text {
+	width:480px;
+	float:left;
+}
+.egg-post a {
+	color:#079cc5;
+	text-decoration:none;
+}
+.egg-post a:hover {
+	text-decoration:underline;
+}
+.egg-post .wait-img {
+	float:left;
+	padding-right:5px;
+}
+.egg-post .facebook {
+	margin-bottom:20px;
+}
+.egg-post .footlong-slider {
+	width:552px;
+	height:462px;
+	margin-bottom:10px;
+}
+.egg-post .eng-hunt-text {
+	color:#c33c7c !important;
+}
+#col-1 .win-container {
+	margin-top:30px;
+}
+h6 {
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	text-align:center;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.win-container h6 span {
+	display:inline-block;
+	font-size:30px;
+	color:#158039;
+}
+.win-container h1 {
+	font-family: 'Conv_ufonts.com_whitney-light_1_';
+	color:#c33c7c;
+	font-size:59px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.what-can {
+	margin-left:33px;
+}
+.win-container h1 span {
+	display:inline-block !important;
+	width:69px !important;
+	height:67px !important;
+}
+.win-container .gift-card {
+	width:728px;
+	height:449px;
+	margin-bottom:20px;
+}
+.win-container .cam-container {
+	width:715px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.cam-container .cam-img {
+}
+.win-container p {
+	line-height:16px !important;
+}
+.win-container .fav-brands {
+	width: 700px;
+}
+.fav-brands img {
+	width:111px;
+}
+.logo {
+	margin: 30px 0 0;
+}
+#winner-list {
+	text-align:center;
+	padding: 50px 0 40px;
+}
+.footer-links {
+	font-size: 14px;
+	color: #000;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding: 40px 0;
+}
+.footer-links a {
+	color: #000;
+	text-decoration: none;
+}
+.footer-links a:hover {
+	text-decoration: underline;
+}
+#col-2 {
+	width: 60%;
+	height: 500px; /* Don't use height, make it flexible */
+	float: left;
+	background: purple;
+}
+#col-3 {
+	width: 20%;
+	height: 500px; /* Don't use height, make it flexible */
+	float: right;
+	background: orange;
+}
+/* Content ends */
+
+
+/* Footer */
+#footer {
+	height: 100px;
+	background: gray;
+}
+/* Footer ends */
+#content {
+width: 1080px !important;
+}
+#sidebar {
+margin: -215px 30px 0 0 !important;
+}

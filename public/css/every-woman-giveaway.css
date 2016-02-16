@@ -1,0 +1,185 @@
+.intro-container .intro {
+	margin-bottom: 5px;
+}
+.intro-container .nav {
+	width: 200px;
+        margin: auto;
+        text-align:center;
+        margin-bottom: 10px;
+}
+.intro-container .nav li {
+/*	float:left;*/
+	list-style:none;
+/*	background:url(link-sep.jpg) no-repeat left;*/
+}
+.intro-container .nav li:first-child {
+	background:none;
+}
+.intro-container .nav li a {
+	font-family:verdana;
+	font-size:18px;
+	color:#5aa14b;
+	line-height:40px;
+	/*text-transform:uppercase;*/
+	padding:0 12px;
+	text-decoration:none;
+}
+.intro-container .nav li a:hover {
+	text-decoration:underline;
+}
+#how-to-win p{
+    margin: 10px;
+    color: #000
+}
+
+.sample-pic .clm-1 {
+        text-align: center;
+}
+.clm-1 h6 {
+	color:#d20202;
+	font-family:verdana;
+	font-size:16px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:8px 0 5px;
+}
+.clm-1 .egg1 {
+	padding: 5px 0px 0px 17px;
+}
+.sample-pic .clm-2 {
+        text-align: center;
+	margin-top:10px;
+}
+.clm-2 h6 {
+	color:#d20202;
+	font-family:verdana;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:10px;
+	margin:3px 0 10px;
+}
+.clm-2 .egg2 {
+	padding: 7px 0px 0px 10px;
+}
+.sample-pic .clm-3 {
+        text-align: center;
+	margin-top: 10px;
+}
+.clm-3 h6 {
+	color:#d20202;
+	font-family:verdana;
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:10px;
+	margin:3px 0 10px;
+}
+.clm-3 .egg3 {
+	padding: 20px 0px 0px 12px;
+}
+
+.keep-hunting .innr p{color:#fff !important}
+.keep-hunting {
+    background-size: 100%;
+	background:url(../img/easteregg/keep-huo.jpg) no-repeat;
+/*	width:320px;
+	height:297px;*/
+	margin-bottom:20px;
+        display: block;
+        margin: auto;
+}
+.keep-hunting .innr {
+/*	width:300px;*/
+     
+}
+.keep-hunting .innr p {
+	font-size:12px !important;
+	line-height:18px !important;
+	margin-bottom:0px !important;
+}
+.keep-hunting .innr a {
+    background-size: 95%;
+	font-weight:bold;
+	color:#000000;
+}
+.keep-hunting .innr a:hover {
+	text-decoration:none;
+}
+.keep-hunting .logo-img {
+	
+    width:320px;
+	height:61px;
+	display:block;
+	margin:18px 0 17px 0px;
+}
+
+.win-container h6 {
+	font-family:verdana;
+	font-size:20px;
+	color:#000;
+	text-align:center;
+	margin-bottom: 20px;
+}
+.win-container h6 span {
+	display:inline-block;
+	font-size:30px;
+	color:#d20202;
+}
+.win-container h1 {
+	font-family: 'Conv_ufonts.com_whitney-light_1_';
+	color:#c33c7c;
+	font-size:59px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.what-can {
+    margin-top: 30px;
+}
+.win-container h1 span {
+	display:inline-block !important;
+	width:69px !important;
+	height:67px !important;
+}
+.win-container .gift-card {
+	width:728px;
+	height:449px;
+	margin-bottom:20px;
+}
+.win-container .cam-container {
+	width:715px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.cam-container .cam-img {
+}
+.win-container p {
+	line-height:16px !important;
+}
+.win-container .fav-brands {
+	width: 700px;
+}
+.fav-brands img {
+	width:111px;
+}
+
+#winner-list {
+	text-align:center;
+	padding: 50px 0 40px;
+}
+.footer-links {
+	font-size: 14px;
+	color: #000;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding: 10px 0;
+}
+.footer-links a {
+	color: #000;
+	text-decoration: none;
+}
+.footer-links a:hover {
+	text-decoration: underline;
+}
